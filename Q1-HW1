@@ -1,0 +1,25 @@
+/* Addition program */
+#include <stdio.h>
+
+/* function main begins program execution */
+int main( void )
+{
+   int integer1 ;  /* SEMICOLON ADDED */
+   int integer2 ; /* SEMICOLON ADDED */
+   int sum ;   /* INT. VAR. SUM HAS DEFINED SINCE IT STORES RESULT OF SUM */ 
+
+   printf( "Enter first integer\n"); /* QUOTATION MARK ADDED */
+   scanf( "%d", &integer1 );           
+
+   printf( "Enter second integer\n ");
+   scanf( "%d", &integer2 );            
+   
+   sum = integer1 + integer2; 
+
+   printf( "Sum is %d\n", sum ); 
+   return 0; 
+
+} 
+
+
+
