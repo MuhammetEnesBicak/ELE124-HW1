@@ -1,0 +1,15 @@
+#include <stdio.h>
+int main() {
+    int popularity, size, homeValue; //defining variables
+
+    printf("Enter popularity: ");  
+    scanf("%d", &popularity);		//getting popularity from user
+
+    printf("Enter size: ");
+    scanf("%d", &size);  //getting size from user
+
+    homeValue = (popularity * popularity * popularity + size * size) * 10000;   //calculating value of the home
+    printf("Home value is: %d\n", homeValue); //printing output
+
+    return 0;
+}
